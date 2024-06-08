@@ -24,16 +24,16 @@ We conduct experiments on multiple benchmark datasets,
 - To run the code on TU dataset (e.g., MUTAG),
 
 ```shell
-python src/models/trainGCVR.py -d MUTAG
+python src/models/GCVR/trainGCVR.py -d MUTAG
 ```
 
 - To run the code on ogbg-molhiv dataset,
 
 ```shell
-python src/models/trainACDGCLogb.py
+python src/models/GCVRogb/trainGCVRogb.py
 ```
 
-- To run the code on GPU device, please specify the gpu id (e.g., 0) in the runing command,
+- To run the code on GPU device, please specify the gpu id (e.g., 0) in the running command,
 
 ```shell
 python src/models/trainGCVR.py -d MUTAG -g 0
