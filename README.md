@@ -36,7 +36,7 @@ python src/models/GCVRogb/trainGCVRogb.py
 - To run the code on GPU device, please specify the gpu id (e.g., 0) in the running command,
 
 ```shell
-python src/models/trainGCVR.py -d MUTAG -g 0
+python src/models/GCVR/trainGCVR.py -d MUTAG -g 0
 ```
 
 Most of our experiments are conducted on Nvidia RTX 3090 GPU, so all the datasets should be able to run on 24 GB GPUs without issues. 
