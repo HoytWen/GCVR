@@ -41,3 +41,16 @@ python src/models/GCVR/trainGCVR.py -d MUTAG -g 0
 
 Most of our experiments are conducted on Nvidia RTX 3090 GPU, so all the datasets should be able to run on 24 GB GPUs without issues. 
 
+### Citation
+
+Please cite our work if you find it useful:
+
+```bibtex
+@inproceedings{wengcvr,
+  title={GCVR: Reconstruction from Cross-View Enable Sufficient and Robust Graph Contrastive Learning},
+  author={Wen, Qianlong and Ouyang, Zhongyu and Zhang, Chunhui and Qian, Yiyue and Zhang, Chuxu and Ye, Yanfang},
+  booktitle={The 40th Conference on Uncertainty in Artificial Intelligence},
+  year={2024}
+}
+```
+
